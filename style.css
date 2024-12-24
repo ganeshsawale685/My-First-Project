@@ -677,13 +677,31 @@ font-weight: 100;
     padding: 0 1vw;
 }
 
-
+.page6 input {
+    height: 100px;
+    width: 100%;
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-family: futura;
+    color: #111;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 4vw;
+    background-color: #F7F7F7;
+}
 
     
 }
 
 
 @media (max-width:450px) {
+    .nav-part1{
+        height: 62px;
+        /* background-color: red; */
+        overflow: hidden;
+    }
     .page3 .child {
         height: 24vh;
         width: 45vw;
@@ -706,6 +724,29 @@ font-weight: 100;
         font-size: 3vw;
         letter-spacing: 1px;
      }
+
+     .page6 input {
+        height: 75px;
+        width: 100%;
+        font-size: 8vw;
+        text-transform: uppercase;
+        font-family: futura;
+        color: #111;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        padding: 2vw;
+        background-color: #F7F7F7;
+    }
+    .page6 input::placeholder{
+        padding: 4vw;
+          font-size: 3.5vw;
+          text-transform: uppercase;
+          font-family: futura;
+          color: #111;
+          scale: 1;
+      }
      .page6boxes .page6-box2 {
         width: 70%;
         display: flex;
